@@ -2,9 +2,9 @@
  * @Author: Lv Jingxin lv510987@163.com
  * @Date: 2024-02-01 16:43:52
  * @LastEditors: Lv Jingxin lv510987@163.com
- * @LastEditTime: 2024-03-19 09:48:21
+ * @LastEditTime: 2024-03-22 09:08:19
  * @FilePath: /react-redux/src/App.js
- * @Description: store中存储方法
+ * @Description: store中存储方法 react
  */
 import { useDispatch, useSelector } from "react-redux";
 import { inscrement, decrement, addToNum } from "./store/modules/counterStore";
