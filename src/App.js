@@ -2,7 +2,7 @@
  * @Author: Lv Jingxin lv510987@163.com
  * @Date: 2024-02-01 16:43:52
  * @LastEditors: Lv Jingxin lv510987@163.com
- * @LastEditTime: 2024-03-22 09:08:19
+ * @LastEditTime: 2024-03-25 09:24:35
  * @FilePath: /react-redux/src/App.js
  * @Description: store中存储方法 react
  */
@@ -34,5 +34,4 @@ function App() {
     </div>
   );
 }
-//
 export default App;
