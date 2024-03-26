@@ -2,7 +2,7 @@
  * @Author: Lv Jingxin lv510987@163.com
  * @Date: 2024-02-01 16:43:52
  * @LastEditors: Lv Jingxin lv510987@163.com
- * @LastEditTime: 2024-03-25 09:24:35
+ * @LastEditTime: 2024-03-26 11:31:01
  * @FilePath: /react-redux/src/App.js
  * @Description: store中存储方法 react
  */
@@ -14,7 +14,7 @@ function App() {
   const { count } = useSelector((state) => state.counter);
   const { channelList } = useSelector((state) => state.channel);
   const dispatch = useDispatch();
-  // 使用useEffect触发异步请求
+  // 使用useEffect触发异步请求。
   useEffect(() => {
     dispatch(featchannlList());
   }, [dispatch]);
